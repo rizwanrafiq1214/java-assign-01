@@ -97,10 +97,6 @@ public class Menu {
                 secondlowestScore = studentScore[i];
             }
 
-            /* 
-            else if( studentScore[i] < secondlowestScore && studentScore[i] != firstlowestScore){
-                secondlowestScore = studentScore[i];
-            }*/
         }
         System.out.println("The two lowest scores provided are " + firstlowestScore + ", and " + secondlowestScore);
     }
