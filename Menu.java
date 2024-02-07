@@ -11,7 +11,6 @@ public class Menu {
     public static void readScore(int[] studentScore, Scanner input) {
                         
         int i=0;
-        //studentScore = new int[ARRAY_LENGTH];
         
         while (i<ARRAY_LENGTH) {
             System.out.print("Enter the score for the " + (i+1) + Prefix(i+1) + " student ");
